@@ -43,7 +43,7 @@ Execute the following command in your terminal or Colab cell to install necessar
 bash
 pip install networkx matplotlib
 
-## Future Scope
+## 📌 Future Scope
 📍 Real-Time GPS Integration: Track user location in real-time and provide live recalculations if the user strays off-path.
 🏢 Indoor Multi-Floor Navigation: Expand graph nodes to represent multi-floor indoor navigation using IoT and Bluetooth Low Energy (BLE) beacons.
 📱 Cross-Platform Mobile App: Develop an iOS/Android interface built with Flutter or React Native with interactive UI/UX maps.
