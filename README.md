@@ -40,7 +40,7 @@ Before running the project, ensure you have the following installed/available:
 
 ### Required Libraries
 Execute the following command in your terminal or Colab cell to install necessary dependencies:
-```bash
+bash
 pip install networkx matplotlib
 
 ## Future Scope
