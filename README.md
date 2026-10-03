@@ -26,22 +26,18 @@ Heapq - Priority Queue implementation for Dijkstra's Algorithm
 
 ## 📁 Project Structure
 
-campus-navigation/
-│── DAA_HACKATHON_PROJECT.ipynb
-└── README.md
+campus-navigation-3d/
+│── index.html                    # Interactive 3D Web Application (Three.js & Dijkstra Pathfinder)
+│── DAA_HACKATHON_PROJECT.ipynb   # Google Colab Data Model & Algorithmic Benchmarks
+└── README.md                     # Comprehensive Project Documentation
 
-## ⚙️ Project Requirements
-
-Before running the project, ensure you have the following installed/available:
-
-### Environment Requirements
-* **Python**: `3.8` or higher (Google Colab highly recommended)
-* **Jupyter Notebook / Google Colab**: To execute `.ipynb` files seamlessly
-
-### Required Libraries
-Execute the following command in your terminal or Colab cell to install necessary dependencies:
-bash
-pip install networkx matplotlib
+⚙️ Requirements & Dependencies
+Web App Requirements
+Browser: Any modern browser with WebGL support (Chrome, Edge, Firefox, Safari)
+Dependencies (Loaded via CDN):
+Three.js (r128) - 3D Scene Rendering
+OrbitControls - Interactive 3D Camera Controls
+Tailwind CSS - Responsive UI Styling
 
 ## 📌 Future Scope
 📍 Real-Time GPS Integration: Track user location in real-time and provide live recalculations if the user strays off-path.
